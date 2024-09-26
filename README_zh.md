@@ -1,6 +1,6 @@
 # Atlas.Y 数据集
 
-> Atlas.Y 数据集遵循 [Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) 许可证](https://creativecommons.org/licenses/by-nc/4.0)。您可以自由共享和修改数据集，但仅限于非商业用途，并且您必须注明原作者。如果您希望将本数据集用于商业用途，请联系数据集维护者以获取许可。
+> Atlas.Y 数据集遵循 [Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) 许可证](https://creativecommons.org/licenses/by-nc/4.0)。您可以自由共享和修改数据集，但仅限于非商业用途，并且您必须注明原作者。如果您希望将本数据集用于商业用途，请[联系我们](mailto:tongji_china2019@163.com)以获取许可。
 
 [English](README.md) | [简体中文](README_zh.md)
 
@@ -16,7 +16,3 @@
 * **天然连接子数据表**：此表格包含从天然蛋白序列中提取的短肽，未经过人工优化。通过移除信号肽和保守区段的方法生成这些天然链接，保守区的识别基于 2021 年中山大学 iGEM 团队的方法。我们使用 DeepLoc 2.1 数据集提供的蛋白序列，并利用 NCBI 保守域数据库（CDD）和 Batch CD-Search 工具识别保守区。
 
 本数据集应用场景广泛，适用于蛋白质工程、分子设计、信号肽功能研究以及生物信息学分析。数据库的两个表格能为科学家们提供有效查询和使用信号肽与链接序列的基础资源。
-
-## 联系我们
-
-Email: tongji_china2019@163.com
