@@ -1,6 +1,6 @@
 # Atlas.Y 数据集
 
-> Atlas.Y 数据集遵循 [Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) 许许可证](https://creativecommons.org/licenses/by-nc/4.0)。您可以自由共享和修改数据集，但仅限于非商业用途，并且您必须注明原作者。如果您希望将本数据集用于商业用途，请联系数据集维护者以获取许可。
+> Atlas.Y 数据集遵循 [Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) 许可证](https://creativecommons.org/licenses/by-nc/4.0)。您可以自由共享和修改数据集，但仅限于非商业用途，并且您必须注明原作者。如果您希望将本数据集用于商业用途，请联系数据集维护者以获取许可。
 
 [English](README.md) | [简体中文](README_zh.md)
 
