@@ -4,6 +4,8 @@
 
 [English](README.md) | [简体中文](README_zh.md)
 
+![](assets/Logo.png)
+
 ## Signal Peptide Dataset
 
 The Signal Peptide Dataset is designed to facilitate research on protein subcellular localization and transport. Signal peptides are short sequences located at the N-terminus of newly synthesized proteins, responsible for determining the subcellular localization of these proteins. The data in this database is sourced from the dataset used in the development of the DeepLoc 2.1 deep learning model by Marius Thrane Ødum et al. To align with the goals of our project, we specifically filtered the dataset to include only proteins from eukaryotic organisms, extracted the signal peptides, categorized them, and assigned unique identifiers to enable efficient querying. This dataset is particularly suitable for bioinformatics research, protein design, and cell biology experiments focused on predicting subcellular localization.
