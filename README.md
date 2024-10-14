@@ -2,7 +2,7 @@
 
 > Atlas.Y Dataset is licensed under the [Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) license](https://creativecommons.org/licenses/by-nc/4.0). You are free to share and adapt the dataset for non-commercial purposes, as long as proper attribution is given. For commercial use, please [contact us](mailto:tongji_china2019@163.com) to request permission.
 
-[English](README.md) | [简体中文](README_zh.md)
+English | [简体中文](README_zh.md)
 
 ![](assets/Logo.png)
 
