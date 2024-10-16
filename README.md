@@ -25,3 +25,49 @@ This Linker Dataset is designed to study the linkers between signal peptides and
   [Natural_Linker.csv](Natural_Linker.csv)
 
 This dataset has broad applications, including protein engineering, molecular design, signal peptide function research, and bioinformatics analysis. The two tables in the dataset provide scientists with a foundational resource for efficiently querying and utilizing linker sequences.
+
+## Optogenetic Protein Pair Dataset
+
+### Principle of the Optogenetic System
+
+Specific light conditions can control the interactions between optogenetic protein pairs, allowing precise regulation of reactions inside cells. This system relies on two proteins: a light-sensitive protein and a receptor protein. Under light stimulation, they bind or separate, which starts or stops a specific cellular reaction.
+
+1. **Light-sensitive Protein’s Response to Light**: Light-sensitive proteins change shape when exposed to specific wavelengths of light. They contain special light-absorbing molecules called chromophores. When these molecules absorb light, they cause the protein to change its structure, which then reveals or hides binding sites. This determines whether the light-sensitive protein can connect with its receptor protein partner.
+
+2. **Receptor Protein’s Role**: Receptor proteins usually cannot respond to light themselves. Instead, they recognize and bind to light-sensitive proteins only after they change shape due to light. This light-induced interaction can switch on or off various cellular processes.
+
+3. **Precise Control of Reactions**: Light-sensitive protein pairs are powerful tools for controlling where and when reactions happen in cells. Since light can be focused on a specific area and timed precisely, researchers can control protein interactions in just the right place and at the right time, minimizing any unwanted effects on other parts of the cell.
+
+### Light-sensitive Protein (with Signal Peptide) Data Table
+
+#### Overview
+
+This table contains information on light-sensitive proteins that have a signal peptide. The signal peptide helps these proteins reach a specific location in the cell, such as the cell membrane or nucleus. Under certain light conditions, these proteins attract their receptor partners to bind with them, enabling precise control of cell activities.
+
+#### Purpose of the Dataset
+
+This data table is used in the **dynamic module** of **Atlas.Y**. The proteins listed here can be targeted to specific locations in the cell because of their signal peptides. Once localized, they can guide other proteins to the same spot when the right light is applied. Each light-sensitive protein is also linked with a fluorescent protein, making it easier to see where it is in the cell.
+
+### Receptor Protein (without Signal Peptide) Data Table
+
+#### Overview
+
+This table contains information on receptor proteins that pair up with light-sensitive proteins under specific light conditions. These receptor proteins do not have a signal peptide themselves, but they move to the correct location in the cell by binding to a light-sensitive protein that does. To visualize these interactions, the receptor proteins are fused with fluorescent proteins, allowing researchers to track them inside the cell.
+
+[Dynamic_Sensor_Pro.csv](Dynamic_Sensor_Pro.csv)
+
+#### Purpose of the Dataset
+
+This data table is used in the **dynamic module** of **Atlas.Y**. When a user provides a target protein, the software will connect it between the receptor protein and a fluorescent protein, creating a new fusion protein system. This setup allows users to see and control how the target protein behaves under different light conditions. Using this data, **Atlas.Y** helps users design light-controlled fusion proteins to precisely regulate protein movement and interactions inside cells.
+
+### Data Source
+
+The data in this table mainly come from the following studies and databases:
+
+1. Kennedy, M., Hughes, R., Peteya, L., Schwartz, J., Ehlers, M. & Tucker, C. (2010). Rapid blue-light–mediated induction of protein interactions in living cells. Nature Methods, 7, 973–975. https://doi.org/10.1038/nmeth.1524
+
+2. Müller, K., Engesser, R., Metzger, S., Schulz, S., Kämpf, M. M., Busacker, M., Steinberg, T., Tomakidi, P., Ehrbar, M., Nagy, F., Timmer, J., Zubriggen, M. D., & Weber, W. (2013). A red/far-red light-responsive bi-stable toggle switch to control gene expression in mammalian cells. Nucleic Acids Research, 41(7), e77. https://doi.org/10.1093/nar/gkt002
+
+3. Kaberniuk, A., Shemetov, A., & Verkhusha, V. (2016). A bacterial phytochrome-based optogenetic system controllable with near-infrared light. Nature Methods, 13, 591–597. https://doi.org/10.1038/nmeth.3864
+
+4. Sequences and information on sensor proteins and fluorescent proteins from the NCBI database.
