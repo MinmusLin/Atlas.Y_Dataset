@@ -44,6 +44,8 @@ Specific light conditions can control the interactions between optogenetic prote
 
 This table contains information on light-sensitive proteins that have a signal peptide. The signal peptide helps these proteins reach a specific location in the cell, such as the cell membrane or nucleus. Under certain light conditions, these proteins attract their receptor partners to bind with them, enabling precise control of cell activities.
 
+[Dynamic_Navigator_Pro.csv](Dynamic_Navigator_Pro.csv)
+
 #### Purpose of the Dataset
 
 This data table is used in the **dynamic module** of **Atlas.Y**. The proteins listed here can be targeted to specific locations in the cell because of their signal peptides. Once localized, they can guide other proteins to the same spot when the right light is applied. Each light-sensitive protein is also linked with a fluorescent protein, making it easier to see where it is in the cell.
